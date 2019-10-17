@@ -2,6 +2,7 @@
 Notes and basic examples of how to use Ruby within a site. 
 
 ## Table of Contents
+1. [Overview](/ruby_info/overview.md)
 1. [Building a Site](/ruby_info/build.md)
 1. [Liquid](/ruby_info/liquid.md)
 1. [Front Matter](/ruby_info/front_matter.md)

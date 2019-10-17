@@ -23,6 +23,7 @@
     ```
     The above code will output the sidebar if `page.show_sidebar` evaluates to true
 - [More on Tags](https://jekyllrb.com/docs/liquid/tags/)
+- [Standard Tags](https://shopify.github.io/liquid/tags/control-flow/)
 
 #### Filters
 - Change the output of a Liquid object
