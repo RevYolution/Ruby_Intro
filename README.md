@@ -8,3 +8,6 @@ Notes and basic examples of how to use Ruby within a site.
 1. [Layouts](/ruby_info/layouts.md)
 1. [Includes](/ruby_info/includes.md)
 1. [Data Files](/ruby_info/data_files.md)
+1. [Assets](/ruby_info/assets.md)
+
+

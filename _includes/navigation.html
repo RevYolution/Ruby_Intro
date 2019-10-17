@@ -11,10 +11,18 @@
 
 <!-- Here we bring in the _data folder to fill in the links for our page. It works the exact same as above but allows for easier upkeep from the navigation.yml file -->
 
-<nav>
+<!-- <nav>
     {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;" {% endif %}>
         {{ item.name }}
     </a>
+    {% endfor %}
+</nav> -->
+
+<!-- Below is taking out the inline styling from above and implementing a class of current to style the links. This will check the url of the page and change the link of the current page based off of CSS rules of the assigned class of current.  -->
+
+<nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
     {% endfor %}
 </nav>
