@@ -24,3 +24,8 @@
     The above code will output the sidebar if `page.show_sidebar` evaluates to true
 - [More on Tags](https://jekyllrb.com/docs/liquid/tags/)
 
+#### Filters
+- Change the output of a Liquid object
+- They are contained within an output and are separated by a `|`
+- Example `{{"hi" | capitalize }}` will output "Hi"
+- [More on Filters](https://jekyllrb.com/docs/liquid/filters/)
