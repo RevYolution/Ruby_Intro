@@ -1,4 +1,4 @@
-## Font Matter
+## Front Matter
 - YAML snippet that is set between two triple dash lines at the top of the page
     ```
     ---
