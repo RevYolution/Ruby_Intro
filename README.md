@@ -1,5 +1,5 @@
 # Ruby_Intro
-Working on intro to Ruby
+Notes and basic examples of how to use Ruby within a site. 
 
 ## Table of Contents
 1. [Building a Site](/ruby_info/build.md)
