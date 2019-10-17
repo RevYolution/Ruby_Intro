@@ -1,0 +1,20 @@
+<!-- Below shows a basic way to have some common navigation template -->
+
+<!-- <nav>
+    <a href="/" {% if page.url == "/" %}style="color: red;" {% endif %}>
+        Home
+    </a>
+    <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;" {% endif %}>
+        About
+    </a>
+</nav> -->
+
+<!-- Here we bring in the _data folder to fill in the links for our page. It works the exact same as above but allows for easier upkeep from the navigation.yml file -->
+
+<nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;" {% endif %}>
+        {{ item.name }}
+    </a>
+    {% endfor %}
+</nav>
